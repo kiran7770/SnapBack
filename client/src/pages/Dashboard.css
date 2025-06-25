@@ -1,0 +1,176 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+}
+
+.hero-image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.data-table th {
+  background-color: #f5f5f5;
+}
+
+.table-img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.tab-buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tab {
+  background-color: #e0e7ff;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.tab.active {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  border-color: #4f46e5;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9ff;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 15px;
+  color: #555;
+}
+
+.hero-image {
+  width: 220px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.tab-buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tab {
+  padding: 10px 20px;
+  background-color: #e0e7ff;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.chart-section {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.chart-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}

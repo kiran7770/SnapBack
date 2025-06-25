@@ -1,0 +1,85 @@
+.story-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.story-heading {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.story-subheading {
+  font-size: 20px;
+  margin: 40px 0 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.story-select,
+.story-textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+.story-textarea:focus,
+.story-select:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+.btn.submit-btn {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn.submit-btn:hover {
+  background-color: #2563eb;
+}
+
+.story-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.story-card {
+  background-color: #f9f9f9;
+  border-left: 4px solid #3b82f6;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.story-text {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.story-meta {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.story-date {
+  font-size: 12px;
+  color: #999;
+}

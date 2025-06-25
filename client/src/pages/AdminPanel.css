@@ -1,0 +1,132 @@
+.admin-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.admin-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-form {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-form input[type="text"],
+.admin-form input[type="file"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn.primary {
+  background-color: #10b981;
+}
+.btn.primary:hover {
+  background-color: #059669;
+}
+
+.btn.warning {
+  background-color: #f59e0b;
+}
+.btn.warning:hover {
+  background-color: #d97706;
+}
+
+.btn.edit {
+  background-color: #3b82f6;
+}
+.btn.edit:hover {
+  background-color: #2563eb;
+}
+
+.btn.delete {
+  background-color: #ef4444;
+}
+.btn.delete:hover {
+  background-color: #dc2626;
+}
+
+.mockup-section-title {
+  font-size: 22px;
+  margin: 30px 0 10px;
+}
+
+.mockup-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mockup-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.mockup-info {
+  flex: 1;
+}
+
+.mockup-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mockup-url {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.mockup-image {
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mockup-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.image-preview {
+  margin-bottom: 10px;
+}
+
+.image-preview img {
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
